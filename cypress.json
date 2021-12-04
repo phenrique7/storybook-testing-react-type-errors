@@ -1,0 +1,8 @@
+{
+  "testFiles": "**/*.spec.tsx",
+  "componentFolder": "src",
+  "component": {
+    "viewportHeight": 860,
+    "viewportWidth": 1280
+  }
+}
