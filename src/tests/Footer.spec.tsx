@@ -5,7 +5,7 @@ import * as stories from '../stories/Footer.stories';
 
 const { Default } = composeStories(stories);
 
-it('<Footer/> test suite', () => {
+it('<Footer/> default', () => {
   mount(<Default />);
   cy.get('footer p').contains(/Thanks for your great work!/i);
-})
+});
